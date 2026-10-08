@@ -86,7 +86,7 @@ SELECT * FROM alunos;
 ```
 
 <p align="center">
-  <img src="![alt text](image.png)" alt="Resultado do SELECT na tabela alunos" width="600">
+  <img src="image.png" alt="Resultado do SELECT na tabela alunos" width="600">
 </p>
 
 **Empréstimos**
@@ -96,7 +96,7 @@ SELECT * FROM emprestimos;
 ```
 
 <p align="center">
-  <img src="![alt text](image-1.png)" alt="Resultado do SELECT na tabela emprestimos" width="600">
+  <img src="image-1.png" alt="Resultado do SELECT na tabela emprestimos" width="600">
 </p>
 
 ---
@@ -113,7 +113,7 @@ INNER JOIN emprestimos
 ```
 
 <p align="center">
-  <img src="![alt text](image-2.png)" alt="Resultado do INNER JOIN entre alunos e emprestimos" width="600">
+  <img src="image-2.png" alt="Resultado do INNER JOIN entre alunos e emprestimos" width="600">
 </p>
 
 ---
@@ -130,7 +130,7 @@ LEFT JOIN emprestimos
 ```
 
 <p align="center">
-  <img src="![alt text](image-3.png)" alt="Resultado do LEFT JOIN entre alunos e emprestimos" width="600">
+  <img src="image-3.png" alt="Resultado do LEFT JOIN entre alunos e emprestimos" width="600">
 </p>
 
 ---
@@ -148,7 +148,7 @@ WHERE emprestimos.id IS NULL;
 ```
 
 <p align="center">
-  <img src="![alt text](image-4.png)" alt="Alunos que nunca pegaram livro" width="600">
+  <img src="image-4.png" alt="Alunos que nunca pegaram livro" width="600">
 </p>
 
 Nesse caso, os alunos que nunca pegaram livro são:
@@ -177,7 +177,7 @@ ERROR: insert or update on table "emprestimos" violates foreign key constraint "
 ```
 
 <p align="center">
-  <img src="![alt text](image-5.png)" alt="Erro de violação de chave estrangeira ao inserir aluno 50" width="600">
+  <img src="image-5.png" alt="Erro de violação de chave estrangeira ao inserir aluno 50" width="600">
 </p>
 
 O banco rejeita a inserção porque não existe aluno com `id = 50`, garantindo que nenhum empréstimo fique "órfão".
